@@ -16,11 +16,24 @@ function ScanDocument() {
     </div>);
 }
 
+function QRcode() {
+    return (<div className='qr'>
+        <p>QR</p>
+    </div>);
+}
+
+function ScanDocumentQR() {
+    return (<div className='scan-document-qr'>
+        <ScanDocument />
+        <QRcode />
+    </div>);
+}
+
 function Head() {
     return (
         <div className='head'>
             <ReservPlus />
-            <ScanDocument />
+            <ScanDocumentQR />
         </div>
     );
 }
