@@ -1,0 +1,2 @@
+# ABOUT THIS PROJECT
+Actually, it's not a case of document fraud, but in some way, this is some kind of dream, a dream to create a masterful copy of the Ukrainian Armed Forces' personal document. Honestly, I'm curious whether it's possible to trick sthe system with this document. So, you can try ;)
