@@ -61,9 +61,14 @@ function Head() {
 
 function MainDocument() {
     return (<div className='main-document'>
-        <p className='main-document-name'>Військово-обліковий документ</p>
-        <img src="./imgs/sign.png" />
-    </div>);
+                <p className='main-document-name'>Військово-обліковий документ</p>
+                <img id="sign" src="./imgs/sign.png" />
+                <span id="data-renewed-in-time-frame">
+                    <img id="green-check-mark" src="./imgs/green-check-makr.jpeg" />
+                    <p className='small-text'>Дані уточнено вчасно</p>
+                </span><br></br>
+                <p id="birthday" className='small-text'>Дата народження:</p>
+            </div>);
 }
 
 function Page() {

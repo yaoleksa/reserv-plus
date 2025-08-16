@@ -5,6 +5,19 @@ body {
 #root {
     width: 5px;
 }
+#sign {
+    margin: 3%;
+}
+#data-renewed-in-time-frame {
+    display: flex;
+}
+#green-check-mark {
+    margin-top: 0.7rem;
+    height: 1.3rem;
+}
+.small-text {
+    font-size: 1rem;
+}
 .reserv-plus {
     display: flex;
     margin: 0 0 0 1rem;
@@ -40,5 +53,5 @@ body {
     background-color: #d5d3be;
 }
 .main-document-name {
-    margin: 0.9rem;
+    margin: 0.9rem 0.9rem 0 0.9rem;
 }
