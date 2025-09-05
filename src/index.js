@@ -67,7 +67,8 @@ function MainDocument() {
                     <img id="green-check-mark" src="./imgs/green-check-makr.jpeg" />
                     <p className='small-text'>Дані уточнено вчасно</p>
                 </span><br></br>
-                <p id="birthday" className='small-text'>Дата народження:</p>
+                <p id="birthday" className='small-text grey-text'>Дата народження:</p><br></br>
+                <p className='small-text'>18.12.1996</p>
             </div>);
 }
 

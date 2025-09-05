@@ -18,6 +18,9 @@ body {
 .small-text {
     font-size: 1rem;
 }
+.grey-text {
+    color: #4f4b3f;
+}
 .reserv-plus {
     display: flex;
     margin: 0 0 0 1rem;
