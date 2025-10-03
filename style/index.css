@@ -58,3 +58,21 @@ body {
 .main-document-name {
     margin: 0.9rem 0.9rem 0 0.9rem;
 }
+.main-document-footer {
+    position: relative;
+    margin-left: -20rem;
+}
+.scrolling-text {
+    font-size: 1rem;
+    width: 25rem;
+    background-color: gray;
+    animation: scroll 5s linear infinite;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(40%);
+    }
+    100% {
+        transform: translateX(-40%);
+    }
+}

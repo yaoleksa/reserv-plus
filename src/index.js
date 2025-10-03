@@ -69,6 +69,10 @@ function MainDocument() {
                 </span><br></br>
                 <p id="birthday" className='small-text grey-text'>Дата народження:</p><br></br>
                 <p className='small-text'>18.12.1996</p>
+                <div className="main-document-footer">
+                    <br></br>
+                    <p className='scrolling-text'>Документ оновлено о 19:57 | 05.09.2025 Знято <b>&#8226;</b></p>
+                </div>
             </div>);
 }
 
