@@ -11,9 +11,6 @@ function draw() {
         text += text;
         console.log(text.length);
     }
-    if(text.length > 1000) {
-        text = text.slice(500, 1000);
-    }
     requestAnimationFrame(draw);
 }
 
