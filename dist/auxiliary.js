@@ -12,7 +12,7 @@ function draw() {
         console.log(text.length);
     }
     if(text.length > 1000) {
-        text = text.slice(text.length * 0.5, text.length);
+        text = text.slice(500, 1000);
     }
     requestAnimationFrame(draw);
 }
