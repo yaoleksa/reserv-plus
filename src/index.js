@@ -71,7 +71,7 @@ function MainDocument() {
                 <p className='small-text'>18.12.1996</p>
                 <div className="main-document-footer">
                     <br></br>
-                    <canvas id="scrollingCanvas" width="300" height="50"></canvas>
+                    <canvas id="scrolling-canvas" width="220" height="30"></canvas>
                 </div>
             </div>);
 }
