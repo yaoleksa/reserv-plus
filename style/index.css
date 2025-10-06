@@ -20,6 +20,10 @@ body {
     background-color: #979387;
     color: #f9f8f4;
 }
+#three-dot-menu {
+    background-color: orange;
+    border-radius: 100% 100% 100% 100%;
+}
 .small-text {
     font-size: 1rem;
 }
@@ -53,7 +57,7 @@ body {
     border: solid gray 0.1rem;
     border-radius: 10% 10% 10% 10%;
     width: 22.5rem;
-    height: 24rem;
+    height: 40rem;
     margin-left: 0.5rem;
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -66,11 +70,6 @@ body {
 .main-document-footer {
     margin-left: -18rem;
 }
-@keyframes scroll {
-    0% {
-        transform: translateX(40%);
-    }
-    100% {
-        transform: translateX(-40%);
-    }
+.name-three-dot-menu {
+    display: flex;
 }

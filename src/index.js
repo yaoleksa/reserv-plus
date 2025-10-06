@@ -73,6 +73,13 @@ function MainDocument() {
                     <br></br>
                     <canvas id="scrolling-canvas" width="220" height="30"></canvas>
                 </div>
+                <div>
+                    <p className='small-text grey-text'>Не військовозобов'язаний</p><br></br>
+                    <div className="name-three-dot-menu">
+                        <p>ЯРЕМЧУК ОЛЕКСІЙ Любомирович</p>
+                        <p id="three-dot-menu">···</p>
+                    </div>
+                </div>
             </div>);
 }
 
