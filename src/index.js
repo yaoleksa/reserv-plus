@@ -77,7 +77,7 @@ function MainDocument() {
                     <p className='small-text grey-text'>Не військовозобов'язаний</p><br></br>
                     <div className="name-three-dot-menu">
                         <p>ЯРЕМЧУК ОЛЕКСІЙ Любомирович</p>
-                        <p id="three-dot-menu">···</p>
+                        <p id="three-dot-menu">•••</p>
                     </div>
                 </div>
             </div>);
