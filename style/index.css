@@ -24,7 +24,7 @@ body {
     background-color: orange;
     border-radius: 100% 100% 100% 100%;
     margin: 5rem 0 1rem 6rem;
-    padding: 0.8rem 1rem 0.8rem 0.6rem;
+    padding: 0.8rem 1.1rem 0.8rem 0.7rem;
     height: 1rem;
     width: 1rem;
     font-size: 0.9rem;
@@ -62,7 +62,7 @@ body {
     border: solid gray 0.1rem;
     border-radius: 10% 10% 10% 10%;
     width: 22.5rem;
-    height: 37rem;
+    height: 34rem;
     margin-left: 0.5rem;
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -79,4 +79,5 @@ body {
     display: flex;
     height: 10rem;
     width: 15rem;
+    margin-top: -5rem;
 }

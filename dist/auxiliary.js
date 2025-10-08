@@ -1,3 +1,7 @@
+document.getElementById("three-dot-menu").addEventListener('click', () => {
+    alert('Pop-up menu');
+});
+
 const canvas = document.getElementById("scrolling-canvas");
 const ctx = canvas.getContext("2d");
 
