@@ -83,10 +83,24 @@ function MainDocument() {
             </div>);
 }
 
+function PopUpMenu() {
+    return (<>
+        <article id="pop-up-menu">
+            <p>Переглянути документ</p>
+            <p>Завантажити</p>
+            <p>Оновити документ</p>
+            <p>Розширені дані з реєстру</p>
+            <p>Направлення на ВЛК</p>
+            <p>Уточнити контактні дані</p>
+        </article>
+    </>);
+}
+
 function Page() {
     return (<>
         <Head />
         <MainDocument />
+        <PopUpMenu />
     </>);
 }
 

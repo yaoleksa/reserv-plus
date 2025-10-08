@@ -1,5 +1,10 @@
+const popUpMenu = document.getElementById("pop-up-menu");
 document.getElementById("three-dot-menu").addEventListener('click', () => {
-    alert('Pop-up menu');
+    if(!popUpMenu.classList.length) {
+        popUpMenu.classList.add("active");
+    } else {
+        popUpMenu.classList.remove("active");
+    }
 });
 
 const canvas = document.getElementById("scrolling-canvas");

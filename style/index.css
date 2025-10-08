@@ -29,6 +29,18 @@ body {
     width: 1rem;
     font-size: 0.9rem;
 }
+#pop-up-menu {
+    position: fixed;
+    bottom: -100%;
+    transition: bottom 0.5s ease-out;
+    background-color: #f9f8f4;
+    padding: 2rem;
+    border-radius: 4% 4% 4% 4%;
+    margin-bottom: 10rem;
+}
+#pop-up-menu.active {
+    bottom: 0;
+}
 .small-text {
     font-size: 1rem;
 }
