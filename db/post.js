@@ -1,9 +1,14 @@
 function doPost(e) {
   const data = JSON.parse(e.postData.contents);
-  const splitedBirthday = data.birthday.split('.');
+
+  // Get birthday as array => [day, month, year]
+  const splitedBirthday = data.birthday.trim().split('.');
+
+  // Get name as array => [lastName, firstName, middleName];
+  const splitedName = data.fullName.replace(/\s+/, ' ').trim().split(' ');
   
   // Check if input is valid
-  if(validateInput(data.fullName, splitedBirthday)) {
+  if(validateInput(splitedName, splitedBirthday)) {
     return ContentService.createTextOutput("Invalid data!!! Request failed");
   }
 
@@ -22,7 +27,12 @@ function doPost(e) {
   const rowNumber = parseInt(activeSheet.getRange("A:B").getValues().filter(content => content[0] && content[1]).length + 1);
   activeSheet.getRange(`A${rowNumber}:B${rowNumber}`).setValues(
     [
-      [data.fullName, data.birthday]
+      [
+        `${splitedName[0].toLocaleUpperCase()} ${
+          splitedName[1][0].toLocaleUpperCase()}${splitedName[1].slice(1).toLocaleLowerCase()} ${
+            splitedName[2][0].toLocaleUpperCase()}${splitedName[2].slice(1).toLocaleLowerCase()}`, 
+        splitedBirthday.join('.')
+      ]
     ]
   );
   return ContentService.createTextOutput("DONE!");
